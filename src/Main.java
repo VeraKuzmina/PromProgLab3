@@ -14,7 +14,7 @@ public class Main
     public static void main(String[] args) {
         List<String> lines = null;
         try {
-            lines = Files.readAllLines(Paths.get("test"), StandardCharsets.UTF_8);
+            lines = Files.readAllLines(Paths.get("Bulgakov_The_White_Guard"), StandardCharsets.UTF_8);
             } catch (IOException e) {
             e.printStackTrace();
             }
