@@ -19,6 +19,7 @@ public class Main
             } catch (IOException e) {
             e.printStackTrace();
             }
+        if (lines == null) System.exit(1);
         Pattern ppril = Pattern.compile("[а-яА-я](ый|ий|ого|его|ому|ему|ым|им|ом|ем" +
                 "|ая|яя|ой|ей|ую|юю|оу|ее|ые|ых|ым|ие|ич|им|ыми|ими)[ .,?)!]");
         Pattern pglag = Pattern.compile("[а-яА-я](ем|ешь|ете|ет|ут|ют|им|ишь|ите|ит|ат|ят"+
