@@ -6,10 +6,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Вариант No1, 7, 13, 19, 25
+ * Вариант No1, 8, 13, 19, 25
  *В программу передается текст из файла. В этом тексте должно быть подсчитано количество
  *прилагательных, наречий и глаголов.
  */
+
 public class Main
 {
     private final static String PRIL_PAT = "[а-яА-Я]{2,}(ый|ий|ого|его|ому|ему|ым|им|ом|ем" +
